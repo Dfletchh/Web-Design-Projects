@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  color: chartreuse;
+  background-color: gray;
+  font-size: 20px;
+  font-family: 'Yomogi', cursive;
+}
+
+.hidden {
+  display: none;
+}
+#higher-message, #lower-message, #win-message, #lose-message {
+  font-size: 40px;
+}
+select {
+background-color: chartreuse;
+border: thin solid black;
+border-radius: 4px;
+display: inline-block;
+font: inherit;
+}
+
+#guess-input{
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: rgba(31, 30, 30, 0.808);
+  width: 70px;
+  height: auto;
+}
+
+#make-guess {
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: rgba(31, 30, 30, 0.808);
+}
+
+#play-again {
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: rgba(31, 30, 30, 0.808);
+  margin-left: 5px;
+  font-size: 12px;
+  height: 25px;
+  width: auto;
+}
+
